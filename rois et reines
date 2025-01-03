@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbre Généalogique des Souverains de Thalendris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Arbre Généalogique des Souverains de Thalendris</h1>
+    </header>
+    <main>
+        <div class="tree">
+            <!-- Serrin Darathir -->
+            <div class="node" id="serrin">
+                <img src="images/serrin_placeholder.jpg" alt="Serrin Darathir">
+                <h2>Serrin Darathir</h2>
+                <p>(0 - 38 PAG)</p>
+            </div>
+            <!-- Maric Darathir -->
+            <div class="node" id="maric">
+                <img src="images/maric_placeholder.jpg" alt="Maric Darathir">
+                <h2>Maric Darathir</h2>
+                <p>(38 - 72 PAG)</p>
+            </div>
+            <!-- Other nodes follow in similar structure -->
+            
+        </div>
+        <!-- Add modal for dynamic display of details -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-name">Nom</h2>
+                <img id="modal-image" src="" alt="Image du souverain">
+                <p id="modal-description">Description complète ici.</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
